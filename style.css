@@ -4,7 +4,6 @@ html, body{
 }
 
 
-
 *{
 	box-sizing: border-box; 
 }
@@ -17,9 +16,39 @@ img{
 .container{
 	max-width: 960px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 .header{
-	background: blue;
+	background: #4dff88;
 	width: 100%;
+}
+
+.menu{
+	display: inline-block;
+	float: right;
+}
+
+.menu a{
+	color: #1a1a00;
+
+}
+
+li{
+	display: inline-block;
+}
+
+p{
+
+	font-family: arial;
+	font-style: italic;
+	font-size: 40px;
+}
+
+.cards .card{
+	display: inline-block;
+	width: 33%;
+	float: left;
+	margin: 0;
+	padding: 10px;
 }
